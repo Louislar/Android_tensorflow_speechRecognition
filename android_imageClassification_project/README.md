@@ -1,4 +1,7 @@
-# Android_image_classification_test
+# Android_tensorflow_speechRecognition
+
+## 使用套件
+tensorflow mobile, 未來希望能夠使用tensorflow lite進行語音識別
 
 ## 參考網址
 
