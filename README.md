@@ -7,3 +7,14 @@
 
 ## tool file
 1. tensorflow_reBoost: 寫了一個範例，將keras model訓練完成(使用mnist)，並且轉換成tensorflow lite格式，且已經放到手機上測試可以執行(準確度不高)
+
+
+## 關鍵檔案
+
+1. keras_model_to_tflite.py: 簡單的用兩層DNN train了minst的data, 並且把model儲存成.h5與.tflite的檔案
+
+2. kerasModel_to_pb.py: 將train好的keras model(.h5)轉換成.PB檔案並且能夠用tensorboard查看，
+
+3. tensorflow_pb_to_log.py: 讓.pb檔案能夠恢復成可以用tensorboard查看內部構造的狀態
+
+4. tensorflow_pb_to_tflite.py: 將.pb檔案轉換成.tflite的程式碼，此為tensorflow官方提供
