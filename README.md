@@ -5,6 +5,8 @@
 
 2. android_speechRecognition_project: 此為語音辨識的專案，預計使用tensorflo lite，目前正在開發當中
 
+3. project_recognizerIntent_test: 此為利用google提供的recognizer Intent製作的簡易語音轉文字APP
+
 ## tool file
 1. tensorflow_reBoost: 寫了一個範例，將keras model訓練完成(使用mnist)，並且轉換成tensorflow lite格式，且已經放到手機上測試可以執行(準確度不高)
 
