@@ -7,6 +7,8 @@
 
 3. project_recognizerIntent_test: 此為利用google提供的recognizer Intent製作的簡易語音轉文字APP
 
+4. tensorflowMobile_test: 利用tensorflow mobile做測試的專案，目前已經能夠使用自己train的keras model做predict了(能為無意義的predict)，此專案也包含了練習如何在APP內錄製聲音(已實作成功)
+
 ## tool file
 1. tensorflow_reBoost: 寫了一個範例，將keras model訓練完成(使用mnist)，並且轉換成tensorflow lite格式，且已經放到手機上測試可以執行(準確度不高)
 
