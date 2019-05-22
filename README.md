@@ -22,3 +22,9 @@
 3. tensorflow_pb_to_log.py: 讓.pb檔案能夠恢復成可以用tensorboard查看內部構造的狀態
 
 4. tensorflow_pb_to_tflite.py: 將.pb檔案轉換成.tflite的程式碼，此為tensorflow官方提供
+
+## 未完成、待處理
+
+1. 需要把聲學相關欲處理函數從python轉成java，EX: ctc(keras函數)
+
+2. model目前還不確定能不能正常放到android系統當中
