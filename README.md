@@ -30,3 +30,7 @@
 1. 需要把聲學相關欲處理函數從python轉成java，EX: ctc(keras函數) ==> 似乎可以用tf的lambda將ctc_decoder放入model當中，就可以轉成.pb檔使用了
 
 2. model目前還不確定能不能正常放到android系統當中
+
+## Reference 參考專案 
+1. https://github.com/audier/DeepSpeechRecognition/tree/85806ec84168fa9825ac1bc42b8447e374f11606 
+搭配解法: http://www.pianshen.com/article/7114277129/
